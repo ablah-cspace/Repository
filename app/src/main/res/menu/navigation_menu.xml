@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home_icon"
+        android:title="Home"></item>
+    <item
+        android:id="@+id/offcampus"
+        android:icon="@drawable/user_icon"
+        android:title="Off-Campus and Distance Users"></item>
+    <item
+        android:id="@+id/studentToolbox"
+        android:icon="@drawable/student_icon"
+        android:title="Student Toolbox"></item>
+    <item
+        android:id="@+id/facultyToolbox"
+        android:icon="@drawable/faculty_icon"
+        android:title="Faculty Toolbox"></item>
+    <item
+        android:id="@+id/giftsAndFriends"
+        android:icon="@drawable/gift_icon"
+        android:title="Gifts and Friends of the Library"></item>
+    <item
+        android:id="@+id/contactUs"
+        android:icon="@drawable/contact_icon"
+        android:title="Contact Us"></item>
+
+</menu>

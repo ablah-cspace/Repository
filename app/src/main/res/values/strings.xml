@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WSU Library</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="information">          Interested in finding out more?
+    </string>
+    <string name="cspace">The Creation Space (C-Space) is an area for collaboration and experimentation where WSU students, faculty, and staff can come together to learn new things and work with advanced media technologies on a variety of projects. C-Space promotes a superior user experience through innovative services that support the educational, cultural, and research needs of the University and its community partners.
+        C-Space is located on the first floor of Ablah Library!
+    </string>
+    <string name="ask">Ask at the C-Space Help Desk or at Circulation.</string>
+</resources>
