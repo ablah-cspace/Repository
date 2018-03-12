@@ -1,6 +1,8 @@
 package wsu.library_application;
 
 import android.content.Intent;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -31,11 +33,27 @@ public class LandingPageActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Fragment fragment = null;
         if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-        return super.onOptionsItemSelected(item);
+        /*
+        switch (item.getItemId()) {
+            case R.id.cspace:
+                fragment = new CSpaceFragment();
+        }
+
+        if (fragment != null) {
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.frame, fragment); // replace a Fragment with Frame Layout
+            transaction.commit(); // commit the changes
+            drawerLayout.closeDrawers();
+        }
+        */
+        return true;
     }
+
+
 
     public void gotopop_link(View view)
     {

@@ -46,4 +46,9 @@ public class popular_links extends AppCompatActivity {
         Intent int11 = new Intent(getApplicationContext(), cspace.class);
         startActivity(int11);
     }
+
+    public void onClickOnlineCatalog(View view){
+        Intent int11 = new Intent(getApplicationContext(), BookFinder.class);
+        startActivity(int11);
+    }
 }

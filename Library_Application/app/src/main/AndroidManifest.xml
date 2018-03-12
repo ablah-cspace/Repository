@@ -26,6 +26,8 @@
         <activity android:name=".feedback" />
         <activity android:name=".cspace" />
         <activity android:name=".cspace_services"></activity>
+        <activity android:name=".BookFinder" />
+        <activity android:name=".GridViewActivity"/>
     </application>
 
 </manifest>
