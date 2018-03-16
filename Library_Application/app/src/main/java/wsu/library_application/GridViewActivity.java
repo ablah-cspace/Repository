@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ProgressBar;
+import android.widget.SearchView;
+import android.widget.Toast;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -21,6 +23,8 @@ public class GridViewActivity extends AppCompatActivity implements AsyncResponse
     private ProgressBar mProgressBar;
     private GridViewAdapter mGridAdapter;
     private ArrayList<GridItem> mGridData;
+    private SearchView searchView;
+
     int maxFlag=1;
     private String[] itemTitleString;
     private String[] itemTitleURL;
@@ -39,9 +43,8 @@ public class GridViewActivity extends AppCompatActivity implements AsyncResponse
         mGridData = new ArrayList<>();
         mGridAdapter = new GridViewAdapter(this, R.layout.grid_item_layout, mGridData);
         mGridView.setAdapter(mGridAdapter);
-        //Start download
-        getData();
-        mProgressBar.setVisibility(View.VISIBLE);
+        searchView = (SearchView) findViewById(R.id.searchView);
+
 
         mGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
@@ -56,10 +59,25 @@ public class GridViewActivity extends AppCompatActivity implements AsyncResponse
                 */
             }
         });
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                getData(query);
+                mProgressBar.setVisibility(View.VISIBLE);
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                //adapter.getFilter().filter(newText);
+                return false;
+        }
+    });
     }
 
-    private void getData(){
-        DocumentListFetcher documentListFetcher = new DocumentListFetcher(this);
+    private void getData(String query){
+        DocumentListFetcher documentListFetcher = new DocumentListFetcher(this,query);
         documentListFetcher.delegate = this;
         documentListFetcher.execute("");
     }
@@ -69,6 +87,7 @@ public class GridViewActivity extends AppCompatActivity implements AsyncResponse
 
         Elements resultListCellBlocks = document.getElementsByClass("resultListCellBlock");
         GridItem gridItem;
+        mGridData.clear();
 
         for(Element resultListCellBlock : resultListCellBlocks){
             Element line1LinkContent = resultListCellBlock.select("div.line1Link").first();
