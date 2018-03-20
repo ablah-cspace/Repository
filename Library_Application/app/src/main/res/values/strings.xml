@@ -1,11 +1,50 @@
 <resources>
-    <string name="app_name">WSU Library</string>
+    <string name="app_name">WSU Library Technologies</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="join_us">Come and join us!</string>
+    <string name="info">For more information or any help contact C-Space Help Desk </string>
     <string name="information">          Interested in finding out more?
     </string>
     <string name="cspace">The Creation Space (C-Space) is an area for collaboration and experimentation where WSU students, faculty, and staff can come together to learn new things and work with advanced media technologies on a variety of projects. C-Space promotes a superior user experience through innovative services that support the educational, cultural, and research needs of the University and its community partners.
         C-Space is located on the first floor of Ablah Library!
     </string>
     <string name="ask">Ask at the C-Space Help Desk or at Circulation.</string>
+    <string name="monday">In Monday Workshops, the representatives of C-space takes up workshops on different technologies, explaining why it is important to explore modern technologies and the use of such in our academics. The topics are from different areas like management, programing, designing etc. Also, we try to provide students with an idea about that technology.
+</string>
+    <string name="schedule">Schedule of the workshops</string>
+    <string name="Android">January 29nd- Android application development</string>
+    <string name="data">February 5th-  Data Monetization</string>
+    <string name="jira">February 12th - JIRA</string>
+    <string name="tensor">February 19th - TensorFlow</string>
+    <string name="vmware">February 26th - VMware</string>
+    <string name="cloud">March 5th-Securing Cloud Virtualization</string>
+    <string name="car">March 12th- USE OF PIEZOELECTRICITY AND THERMOELECTRIC MATERIALS IN ELECTRIC CARS</string>
+    <string name="grovy">March 26th- Groovy</string>
+    <string name="aws">April 2nd-  Amazon Web Services</string>
+    <string name="crm">April 9th -  Siebel crm</string>
+    <string name="nsx">April 16th- NSX(Network Virtualization)</string>
+    <string name="pega">April 23rd - Pega</string>
+    <string name="iot">April 30th - Internet of things</string>
+    <string name="join">Venue: C-Space Time: 1:00pm on every Monday</string>
+    <string name="tues">May 1-3D Pens</string>
+    <string name="tech">Tech-Tuesdays represent the latest technology that is available for students at Ablah Library, Wichita State University. A lot of exciting Tech-Tuesdays are on the horizon this Spring. Students and faculty are highly encouraged to attend and learn about the tech on display.</string>
+    <string name="joinus">Venue: C-Space Time:Noon to 2:00pm on every Tuesday</string>
+    <string name="first">1. The users will be able to use Linux and different versions of Windows simultaneously on the same machine.</string>
+    <string name="four">4.The users will be able to use and experience Virtualization.</string>
+    <string name="five">5.Operating Systems Available: Linux Ubuntu, Linux Ubuntu 1, Windows 7, Windows 7.1, Windows 7.2, Windows 7.3, Windows 7.4</string>
+    <string name="media">The Media Design Zone is dedicated for media editing, recording, creative writing, website development and publishing. There are two Mac based workstations and one Windows 10 based workstation along with a sound booth.</string>
+    <string name="greenscreen">The workstations in the Media Design Zone are available on first come first serve basis. Use of these workstations may be limited to three hours if there is a waiting list. The Media Zone iMac have a large 27" display for advanced  multimedia applications. A green screen is available for photography and filming projects. There are also cameras and related items available for checkout at the Circulation Desk.</string>
+    <string name="multios">The Multi OS Zone is equipped with 8 machines which support multiple virtual machines of multiple platforms. The Multi OS Zone gives users an opportunity to learn and work with different operating systems. The features available in this zone are listed below:</string>
+    <string name="advance">The Advanced Development Zone is dedicated to prototype development. The zone is comprised of two high performance workstations, namely the CAD workstation and the Android/iOS app development workstation. The former is dedicated for CAD, simulation, and animation and the later is dedicated for application development.</string>
+    <string name="soundbooth">The Sound Booth may be scheduled through the Sound Booth calendar by any currently enrolled WSU student, or any current WSU employee. The C-Space assistant will unlock the booth once the person who made the Sound Booth reservation checks in at the C-Space Help Desk. The individual who schedules the Sound Booth will be considered the main user and is responsible for any damage or misuse of the equipment, even if a group is working on a project together. Users must not leave equipment unattended while it is checked out to them. No food or drink is permitted in the Sound Booth. The Sound Booth is designed for sound isolation and significantly reduces ambient and acoustic noise.</string>
+    <string name="useofsound">Broadly the Sound Booth can be used for: Voice recording,Practice and rehearsals,Music recording.</string>
+    <string name="printandscan">C-Space offers access to a Makerbot Digitizer Desktop 3D Scanner,Makerbot Replicator 2 and Makerbot Replicator 5th Generation 3D printer.This equipment may be used by all currently enrolled WSU students or employees of Wichita State.The scanner may be used to scan,create a digital file of three-dimensional objects.The printer uses PLA plastic filament to print three-dimensional objects  using a design that is uploaded from a computer.
+</string>
+    <string name="color_print">High quality printing is available in the C-Space area. Possible applications include high quality photo printing. The maximum allowable print size is restricted to letter size (8.5" x 11").This printer is capable of printing  in color or black and white up to 1200 x 1200 dpi.The printer is available through papercut at $ 0.25 per page.</string>
+    <string name="interlib">Using ILLiad (Interlibrary Loan Internet Accesible Database), you can submit a request, check request status, or even ask the lending library for more time.Interlibrary Loan service is available to all current WSU students, faculty, and staff.</string>
+    <string name="circ">The Circulation Department of Wichita State University Libraries charges and discharges books and other items from client records, accepts payments of fines and fees, and offers supplies and other items for sale, like blue books, reusable bags and earbuds.</string>
+    <string name="identity">Identification: WSU students,staff and faculty must present shockers card as identification proof.</string>
+    <string name="com_user">Even If you are not currently affiliated with Wichita State University (including WSU alumni) you may still be eligible for limited library privileges. Please visit this page for our Community User Policies.</string>
+    <string name="cond">All WSU students, faculty, and staff are eligible for library privileges and may check out as many items as they are willing to be responsible for.</string>
 </resources>

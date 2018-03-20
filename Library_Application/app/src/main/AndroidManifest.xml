@@ -23,11 +23,27 @@
         <activity android:name=".electronic_book" />
         <activity android:name=".more_resources" />
         <activity android:name=".journals" />
-        <activity android:name=".feedback" />
         <activity android:name=".cspace" />
-        <activity android:name=".cspace_services"></activity>
+        <activity android:name=".cspace_services" />
         <activity android:name=".BookFinder" />
-        <activity android:name=".GridViewActivity"/>
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".monday_workshop" />
+        <activity android:name=".tech_tuesday" />
+        <activity android:name=".Multi_os" />
+        <activity android:name=".media_zone" />
+        <activity android:name=".advance_zone" />
+        <activity android:name=".sound_booth4" />
+        <activity android:name=".print_scan" />
+        <activity android:name=".Generalpolicy" />
+        <activity android:name=".color_print" />
+        <activity android:name=".Timings" />
+        <activity android:name=".about_lib" />
+        <activity android:name=".lib_resources" />
+        <activity android:name=".Help_research" />
+        <activity android:name=".Interloan" />
+        <activity android:name=".events" />
+        <activity android:name=".renew_items" />
+        <activity android:name=".Circulation"></activity>
     </application>
 
 </manifest>

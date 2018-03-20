@@ -21,6 +21,8 @@
             android:layout_marginTop="16dp"
             android:background="@color/background"
             android:clickable="true"
+            android:contextClickable="false"
+            android:onClick="gotoadvance"
             app:layout_constraintStart_toStartOf="@+id/layout12"
             app:layout_constraintTop_toBottomOf="@+id/layout12">
 
@@ -60,8 +62,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="70dp"
             android:background="@color/background"
-            android:clickable="true"
-            android:onClick="gotopop_link"
+            android:onClick="gotomulti_os"
             app:layout_constraintEnd_toStartOf="@+id/layout13"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -70,7 +71,7 @@
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="19dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
@@ -101,7 +102,7 @@
             android:layout_marginEnd="24dp"
             android:background="@color/background"
             android:clickable="true"
-            android:onClick="gotoresources"
+            android:onClick="gotomedia_zone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/layout12">
 
@@ -140,6 +141,7 @@
             android:layout_alignParentStart="true"
             android:background="@color/background"
             android:clickable="true"
+            android:onClick="gotosound_booth"
             app:layout_constraintEnd_toEndOf="@+id/layout13"
             app:layout_constraintTop_toTopOf="@+id/layout14">
 
@@ -180,6 +182,7 @@
             android:layout_marginTop="16dp"
             android:background="@color/background"
             android:clickable="true"
+            android:onClick="gotoprint_scan"
             app:layout_constraintEnd_toEndOf="@+id/layout13"
             app:layout_constraintTop_toBottomOf="@+id/layout15">
 
@@ -222,6 +225,7 @@
             android:layout_marginTop="16dp"
             android:background="@color/background"
             android:clickable="true"
+            android:onClick="gotoprint"
             app:layout_constraintStart_toStartOf="@+id/layout12"
             app:layout_constraintTop_toBottomOf="@+id/layout14">
 
@@ -255,45 +259,44 @@
         </android.support.constraint.ConstraintLayout>
 
         <android.support.constraint.ConstraintLayout
-            android:id="@+id/layout19"
+            android:id="@+id/layout25"
             android:layout_width="140dp"
             android:layout_height="70dp"
             android:layout_alignParentStart="true"
             android:layout_marginTop="16dp"
             android:background="@color/background"
             android:clickable="true"
-            android:onClick="gotoresources"
+            android:onClick="gototechtuesday"
             app:layout_constraintEnd_toEndOf="@+id/layout13"
             app:layout_constraintTop_toBottomOf="@+id/layout17">
 
             <TextView
-                android:id="@+id/tv19"
+                android:id="@+id/tv25"
                 android:layout_width="wrap_content"
-                android:layout_height="15dp"
+                android:layout_height="20dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:text="Tech Tuesday"
+                android:text="Tech Tuesdays"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.51"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/iv19"
+                android:id="@+id/iv25"
                 android:layout_width="40dp"
                 android:layout_height="30dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/tv19"
+                app:layout_constraintBottom_toTopOf="@+id/tv25"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/tecchtuesday" />
         </android.support.constraint.ConstraintLayout>
-
 
 
         <android.support.constraint.ConstraintLayout
@@ -304,18 +307,18 @@
             android:layout_marginTop="16dp"
             android:background="@color/background"
             android:clickable="true"
-            android:onClick="gotoresources"
+            android:onClick="gotomondayworkshop"
             app:layout_constraintStart_toStartOf="@+id/layout12"
             app:layout_constraintTop_toBottomOf="@+id/layout18">
 
             <TextView
                 android:id="@+id/tv19"
                 android:layout_width="wrap_content"
-                android:layout_height="15dp"
+                android:layout_height="20dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
-                android:text="Monday Workshop"
+                android:text="Monday Workshops"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.51"
@@ -344,14 +347,14 @@
             android:layout_marginTop="16dp"
             android:background="@color/background"
             android:clickable="true"
-            android:onClick="gotoresources"
+            android:onClick="gotohours"
             app:layout_constraintStart_toStartOf="@+id/layout12"
             app:layout_constraintTop_toBottomOf="@+id/layout19">
 
             <TextView
                 android:id="@+id/tv20"
                 android:layout_width="wrap_content"
-                android:layout_height="15dp"
+                android:layout_height="20dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
@@ -385,7 +388,7 @@
             android:layout_marginTop="16dp"
             android:background="@color/background"
             android:clickable="true"
-            android:onClick="gotoresources"
+            android:onClick="gotofeedback"
             app:layout_constraintEnd_toEndOf="@+id/layout13"
             app:layout_constraintTop_toBottomOf="@+id/layout19">
 

@@ -66,8 +66,23 @@ public class LandingPageActivity extends AppCompatActivity {
     }
 
     public void gotoresources(View view) {
-        Intent int4 = new Intent(getApplicationContext(), Resources.class);
+        Intent int4 = new Intent(getApplicationContext(), lib_resources.class);
         startActivity(int4);
 
     }
+    public void gotoabout_lib(View view) {
+        Intent int5 = new Intent(getApplicationContext(), about_lib.class);
+        startActivity(int5);
+
+    }
+
+    public void gotohelp_resources(View view) {
+        Intent int5 = new Intent(getApplicationContext(), Help_research.class);
+        startActivity(int5);
+
+    }
+
+
+
+
 }
